@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="PokeBio">
+  <!--
+    Doble lectura deliberada: la silueta es una Poke Ball y, a la vez, una celula
+    con su nucleo. Paleta de la web (papel crema, verde herbario, tinta) y formas
+    gruesas para que siga siendo legible a 16 px.
+  -->
+  <defs>
+    <clipPath id="disco">
+      <circle cx="16" cy="16" r="15" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#disco)">
+    <circle cx="16" cy="16" r="15" fill="#f2ece0" />
+    <path d="M1 16 A15 15 0 0 1 31 16 Z" fill="#4a6b43" />
+    <rect x="0" y="14" width="32" height="4" fill="#23201a" />
+  </g>
+
+  <circle cx="16" cy="16" r="15" fill="none" stroke="#23201a" stroke-width="2" />
+  <circle cx="16" cy="16" r="6" fill="#f2ece0" stroke="#23201a" stroke-width="2.5" />
+  <circle cx="16" cy="16" r="2.4" fill="#4a6b43" />
+</svg>
